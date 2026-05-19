@@ -10,7 +10,13 @@
       "PowerShell(npm install -D tailwindcss-animate)",
       "PowerShell(npm run build)",
       "PowerShell(npm run dev)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "PowerShell(npm install next@latest eslint-config-next@latest)",
+      "PowerShell(npm install next@15 eslint-config-next@15)",
+      "PowerShell(npm ls next eslint-config-next --depth=0)",
+      "Bash(kill %1)",
+      "PowerShell(git add package.json package-lock.json)",
+      "PowerShell(npm run build 2>&1)"
     ]
   }
 }

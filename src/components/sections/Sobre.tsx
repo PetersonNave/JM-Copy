@@ -52,7 +52,7 @@ export function Sobre() {
               <p>
                 A JM Copy é uma gráfica rápida no coração da Boa Vista, a poucos
                 passos da UNICAP. É o ponto certo de quem precisa de impressão,
-                cópia e personalizado para ontem — sem complicação.
+                cópia e personalizado para ontem, sem complicação.
               </p>
               <p>
                 São mais de 23 anos de estrada no mercado gráfico transformando
