@@ -1,124 +1,180 @@
 // ============================================================
-// CONFIGURAÇÃO DO SITE — edite este arquivo para cada cliente
+// CONFIGURAÇÃO DO SITE — JM Copy (Gráfica Rápida e Personalizados)
+// Preenchido a partir do relatório de investigação e da análise
+// das imagens em /public/assets/images. Itens marcados "PENDENTE"
+// devem ser confirmados com o cliente — ver _docs/checklist-kickoff.md
 // ============================================================
 
 export const siteConfig = {
   // --- Empresa ---
-  nome: "Nome da Empresa",
-  slogan: "Slogan principal da empresa",
-  descricao: "Descrição curta para SEO e meta tags (até 160 caracteres).",
-  segmento: "gráfica", // ex: ótica, gráfica, assistência técnica...
+  nome: "JM Copy",
+  slogan: "Você pensa e a gente realiza!",
+  descricao:
+    "Gráfica rápida e personalizados na Boa Vista, Recife — pertinho da UNICAP. Cópias, impressão, encadernação e brindes sob medida.",
+  segmento: "gráfica",
+
+  // Responsável pelo negócio
+  responsavel: "Juliana Moura",
+
+  // Cor — paleta oficial da marca (hex fornecido pelo cliente)
   cor: {
-    primaria: "#1a2b4a",   // cor principal (hex)
-    secundaria: "#2c4a8c", // cor de destaque
+    primaria: "#e014b5",   // rosa/magenta — cor de marca dominante
+    secundaria: "#4614ab", // azul/roxo — apoio e contraste
+  },
+  paleta: {
+    azulClaro: "#33b6e0",
+    rosa: "#e014b5",
+    amarelo: "#f4ea0c",
+    azul: "#4614ab",
+    rosaClaro: "#f2bfc5",
+    vinho: "#d94663",
   },
 
   // --- Contato ---
-  whatsapp: "5581999999999", // somente números, com DDI+DDD
-  whatsappMensagem: "Olá! Vim pelo site e gostaria de mais informações.",
-  email: "contato@empresa.com.br",
-  telefone: "(81) 9 9999-9999",
+  whatsapp: "5581983091209", // (81) 98309-1209
+  whatsappMensagem:
+    "Olá, JM Copy! Vim pelo site e gostaria de um orçamento.",
+  email: "julianacopiadora332@gmail.com", // PENDENTE: confirmar e-mail comercial atual
+  telefone: "(81) 98309-1209",
 
   // --- Endereço ---
   endereco: {
-    rua: "Rua Exemplo, 123",
-    bairro: "Bairro",
+    rua: "Rua Afonso Pena, 43",
+    bairro: "Boa Vista",
     cidade: "Recife",
     estado: "PE",
-    cep: "50000-000",
-    googleMapsUrl: "https://maps.google.com/?q=...",
-    googleMapsEmbed: "https://www.google.com/maps/embed?pb=...",
+    cep: "50050-130",
+    referencia: "Próximo à UNICAP",
+    googleMapsUrl:
+      "https://www.google.com/maps/search/?api=1&query=Jm+COPY+R.+Afonso+Pena+43+Boa+Vista+Recife+PE",
+    googleMapsEmbed:
+      "https://www.google.com/maps?q=R.+Afonso+Pena,+43+-+Boa+Vista,+Recife+-+PE,+50050-130&output=embed",
   },
 
-  // --- Horário ---
+  // --- Horário --- PENDENTE: confirmar grade completa.
+  // GMB indica abertura às 06h nas sextas; artes citam "de domingo a domingo".
   horario: [
     { dias: "Segunda a Sexta", horas: "08h às 18h" },
-    { dias: "Sábado", horas: "08h às 13h" },
-    { dias: "Domingo", horas: "Fechado" },
+    { dias: "Sábado", horas: "08h às 14h" },
+    { dias: "Domingo", horas: "Sob agendamento" },
   ],
 
   // --- Redes Sociais ---
   redes: {
-    instagram: "https://instagram.com/empresa",
+    instagram: "https://instagram.com/jmcopy.grafica",
     facebook: "",
     youtube: "",
   },
 
   // --- SEO ---
   seo: {
-    titulo: "Nome da Empresa | Segmento em Recife",
-    descricao: "Descrição para Google (até 160 caracteres).",
-    keywords: ["segmento recife", "empresa recife", "serviço perto de mim"],
-    ogImage: "/og-image.jpg", // 1200x630px, salvar em /public
+    titulo: "JM Copy | Gráfica Rápida e Personalizados em Recife",
+    descricao:
+      "Gráfica na Boa Vista, Recife, pertinho da UNICAP. Cópias, impressão, encadernação de TCC, cartões de visita e brindes personalizados. Você pensa e a gente realiza!",
+    keywords: [
+      "gráfica recife",
+      "gráfica boa vista recife",
+      "cópias perto da unicap",
+      "cartão de visita recife",
+      "encadernação tcc recife",
+      "gráfica rápida recife",
+    ],
+    ogImage: "/og-image.jpg", // 1200x630px — PENDENTE: gerar e salvar em /public
   },
 
-  // --- Serviços ---
-  // Preencher com os serviços reais da empresa
+  // --- Serviços --- serviços principais informados pela cliente
   servicos: [
     {
-      titulo: "Serviço 1",
-      descricao: "Descrição curta do serviço.",
-      icone: "printer", // nome do ícone lucide-react
+      titulo: "Plotagem",
+      descricao:
+        "Impressão em grande formato com qualidade e acabamento profissional.",
+      icone: "Printer",
     },
     {
-      titulo: "Serviço 2",
-      descricao: "Descrição curta do serviço.",
-      icone: "scan",
+      titulo: "Banner",
+      descricao:
+        "Banners para lojas, eventos e divulgação — prontos com rapidez.",
+      icone: "Flag",
     },
     {
-      titulo: "Serviço 3",
-      descricao: "Descrição curta do serviço.",
-      icone: "layers",
+      titulo: "Adesivo em Vinil com Recorte",
+      descricao:
+        "Adesivos recortados sob medida para vitrines, veículos e identidade visual.",
+      icone: "Sticker",
+    },
+    {
+      titulo: "Personalizados para Aniversário",
+      descricao:
+        "Itens e artes personalizadas para deixar a festa de aniversário com a sua cara.",
+      icone: "Cake",
+    },
+    {
+      titulo: "Personalizados para Eventos",
+      descricao:
+        "Brindes e materiais personalizados para eventos, empresas e confraternizações.",
+      icone: "Gift",
+    },
+    {
+      titulo: "Impressão Colorida e P&B",
+      descricao:
+        "Impressão e cópias coloridas ou em preto e branco, em qualquer tiragem.",
+      icone: "Copy",
     },
   ],
 
   // --- Diferenciais ---
+  // CNPJ registrado desde 2018; mais de 23 anos de atuação no mercado gráfico.
   diferenciais: [
-    { titulo: "Anos de experiência", valor: "30+" },
-    { titulo: "Clientes atendidos", valor: "5.000+" },
-    { titulo: "Satisfação garantida", valor: "100%" },
+    { titulo: "Anos de experiência", valor: "23+" },
+    { titulo: "Avaliação no Google", valor: "4,7★" },
+    { titulo: "Atendimento na semana", valor: "7 dias" },
   ],
 
   // --- Avaliações (Google) ---
   avaliacoes: {
-    nota: 4.8,
-    total: 127,
+    nota: 4.7, // confirmado no Google Meu Negócio
+    total: 0, // PENDENTE: número total não acessível sem login no GMB — confirmar
+    // PENDENTE: substituir os destaques abaixo por avaliações REAIS do Google
+    // (nome, nota e texto). Os textos atuais são placeholders.
     destaques: [
       {
-        nome: "Nome do Cliente",
+        nome: "Avaliação pendente",
         nota: 5,
-        texto: "Texto da avaliação do cliente.",
-        data: "2024-11",
+        texto: "Coletar 3 avaliações reais do Google Meu Negócio com o cliente.",
+        data: "2026-05",
       },
       {
-        nome: "Nome do Cliente",
+        nome: "Avaliação pendente",
         nota: 5,
-        texto: "Texto da avaliação do cliente.",
-        data: "2024-10",
+        texto: "Coletar 3 avaliações reais do Google Meu Negócio com o cliente.",
+        data: "2026-05",
       },
       {
-        nome: "Nome do Cliente",
+        nome: "Avaliação pendente",
         nota: 5,
-        texto: "Texto da avaliação do cliente.",
-        data: "2024-09",
+        texto: "Coletar 3 avaliações reais do Google Meu Negócio com o cliente.",
+        data: "2026-05",
       },
     ],
   },
 
   // --- Galeria / Portfólio ---
-  // Salvar imagens em /public/galeria/
+  // Imagens selecionadas da análise e copiadas para /public/galeria/
   galeria: [
-    { src: "/galeria/1.jpg", alt: "Descrição da imagem 1" },
-    { src: "/galeria/2.jpg", alt: "Descrição da imagem 2" },
-    { src: "/galeria/3.jpg", alt: "Descrição da imagem 3" },
-    { src: "/galeria/4.jpg", alt: "Descrição da imagem 4" },
-    { src: "/galeria/5.jpg", alt: "Descrição da imagem 5" },
-    { src: "/galeria/6.jpg", alt: "Descrição da imagem 6" },
+    { src: "/galeria/01-cartao-visita-dourado.jpg", alt: "Cartões de visita com acabamento dourado" },
+    { src: "/galeria/02-encadernacao-capa-dura.jpg", alt: "Encadernação capa dura para TCC" },
+    { src: "/galeria/03-cartao-hot-stamping.jpg", alt: "Cartões de visita com hot stamping dourado" },
+    { src: "/galeria/04-ecobag-personalizada.jpg", alt: "Ecobags personalizadas para eventos" },
+    { src: "/galeria/05-crachas-cordao.jpg", alt: "Crachás personalizados com cordão" },
+    { src: "/galeria/06-cracha-personalizado.jpg", alt: "Crachá personalizado com identidade visual" },
+    { src: "/galeria/07-caneta-personalizada.jpg", alt: "Canetas personalizadas com gravação a laser" },
+    { src: "/galeria/08-marca-texto-papel.jpg", alt: "Marca-texto de papel personalizado" },
+    { src: "/galeria/09-mosaico-produtos.jpg", alt: "Mosaico de produtos e serviços da JM Copy" },
   ],
 
-  // --- Analytics ---
-  googleAnalyticsId: "", // ex: G-XXXXXXXXXX
-  metaPixelId: "",       // ex: 1234567890
+  // --- Analytics --- PENDENTE: preencher após confirmar acessos com o cliente
+  googleAnalyticsId: "",
+  metaPixelId: "",
 };
 
 export type SiteConfig = typeof siteConfig;

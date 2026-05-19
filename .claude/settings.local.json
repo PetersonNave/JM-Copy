@@ -6,7 +6,11 @@
       "WebFetch(domain:www.solutudo.com.br)",
       "Bash(npm -v)",
       "Bash(npm install *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "PowerShell(npm install -D tailwindcss-animate)",
+      "PowerShell(npm run build)",
+      "PowerShell(npm run dev)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)"
     ]
   }
 }

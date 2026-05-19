@@ -2,47 +2,150 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ============================================================
+   JM Copy — estilo base "print studio"
+   ============================================================ */
+
 @layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-    --border: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-    --radius: 0.5rem;
+  /* As variáveis --font-display e --font-body são injetadas pelo
+     next/font no elemento <html> (ver layout.tsx). */
+
+  * {
+    border-color: rgba(24, 16, 22, 0.12);
   }
 
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: #f7f0e1;
+    color: #181016;
+    font-family: var(--font-body), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: #e014b5;
+    color: #fff;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display), Georgia, serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ece0c5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #e014b5;
+    border: 3px solid #ece0c5;
+    border-radius: 999px;
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
+/* ============================================================
+   Texturas decorativas
+   ============================================================ */
+
+/* Pontilhado meio-tom (halftone) — usar com `color` para a cor dos pontos */
+.halftone {
+  background-image: radial-gradient(currentColor 1.5px, transparent 1.7px);
+  background-size: 15px 15px;
+}
+
+/* Grão de papel sobreposto */
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.32'/%3E%3C/svg%3E");
+}
+
+/* Linha tracejada estilo "picote" de gráfica */
+.perfuro {
+  background-image: repeating-linear-gradient(
+    to right,
+    currentColor 0,
+    currentColor 8px,
+    transparent 8px,
+    transparent 16px
+  );
+}
+
+/* ============================================================
+   Animações de revelação no scroll
+   ============================================================ */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 0.8s cubic-bezier(0.22, 0.7, 0.2, 1),
+    transform 0.8s cubic-bezier(0.22, 0.7, 0.2, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Revelação no carregamento da página (hero) */
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: translateY(26px);
   }
-  body {
-    @apply bg-background text-foreground;
+  to {
+    opacity: 1;
+    transform: none;
   }
-  html {
-    scroll-behavior: smooth;
+}
+.enter {
+  opacity: 0;
+  animation: enter 0.9s cubic-bezier(0.22, 0.7, 0.2, 1) forwards;
+}
+
+/* Traço desenhado à mão sob títulos */
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.draw path {
+  stroke-dasharray: 520;
+  stroke-dashoffset: 520;
+  animation: draw 1.1s ease-out 0.7s forwards;
+}
+
+/* ============================================================
+   Acessibilidade — respeitar redução de movimento
+   ============================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal,
+  .enter {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
