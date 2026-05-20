@@ -10,15 +10,15 @@ const WHATSAPP_URL =
 const LINKS = [
   { label: "Serviços", href: "#servicos" },
   { label: "Como funciona", href: "#como-funciona" },
-  { label: "Portfólio", href: "#galeria" },
   { label: "Sobre", href: "#sobre" },
+  { label: "Portfólio", href: "#galeria" },
   { label: "Contato", href: "#contato" },
 ];
 
 function Logo() {
   return (
     <a
-      href="#topo"
+      href="#"
       className="flex items-center gap-2.5"
       aria-label="JM Copy — Gráfica Rápida"
     >
@@ -42,12 +42,43 @@ function Logo() {
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  useEffect(() => {
+    const ids = LINKS.map((l) => l.href.slice(1));
+    const observers: IntersectionObserver[] = [];
+
+    const heroEl = document.getElementById("topo");
+    if (heroEl) {
+      const obs = new IntersectionObserver(
+        ([entry]) => { if (entry.isIntersecting) setActiveSection(""); },
+        { rootMargin: "0px 0px -30% 0px", threshold: 0 }
+      );
+      obs.observe(heroEl);
+      observers.push(obs);
+    }
+
+    ids.forEach((id) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      const obs = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) setActiveSection(id);
+        },
+        { rootMargin: "-40% 0px -55% 0px", threshold: 0 }
+      );
+      obs.observe(el);
+      observers.push(obs);
+    });
+
+    return () => observers.forEach((o) => o.disconnect());
   }, []);
 
   useEffect(() => {
@@ -69,16 +100,19 @@ export function Header() {
         <Logo />
 
         <nav className="hidden items-center gap-7 lg:flex">
-          {LINKS.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="group relative text-sm font-semibold text-ink"
-            >
-              {l.label}
-              <span className="absolute -bottom-1 left-0 h-[3px] w-0 bg-magenta transition-all duration-300 group-hover:w-full" />
-            </a>
-          ))}
+          {LINKS.map((l) => {
+            const isActive = activeSection === l.href.slice(1);
+            return (
+              <a
+                key={l.href}
+                href={l.href}
+                className={`group relative text-sm font-semibold transition-colors duration-200 ${isActive ? "text-magenta" : "text-ink"}`}
+              >
+                {l.label}
+                <span className={`absolute -bottom-1 left-0 h-[3px] bg-magenta transition-all duration-300 ${isActive ? "w-full" : "w-0 group-hover:w-full"}`} />
+              </a>
+            );
+          })}
         </nav>
 
         <div className="flex items-center gap-3">
@@ -111,16 +145,19 @@ export function Header() {
         }`}
       >
         <nav className="flex flex-col gap-1 px-5 py-5">
-          {LINKS.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              onClick={() => setOpen(false)}
-              className="border-b border-ink/10 py-3 font-display text-2xl font-semibold text-ink"
-            >
-              {l.label}
-            </a>
-          ))}
+          {LINKS.map((l) => {
+            const isActive = activeSection === l.href.slice(1);
+            return (
+              <a
+                key={l.href}
+                href={l.href}
+                onClick={() => setOpen(false)}
+                className={`border-b border-ink/10 py-3 font-display text-2xl font-semibold transition-colors duration-200 ${isActive ? "text-magenta" : "text-ink"}`}
+              >
+                {l.label}
+              </a>
+            );
+          })}
           <a
             href={WHATSAPP_URL}
             target="_blank"

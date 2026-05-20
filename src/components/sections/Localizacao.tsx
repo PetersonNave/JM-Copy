@@ -15,8 +15,10 @@ const WHATSAPP_URL =
 const MAPS_URL =
   "https://www.google.com/maps/search/?api=1&query=Jm+COPY+R.+Afonso+Pena+43+Boa+Vista+Recife+PE";
 
+// Busca pelo nome do negócio (não pelo endereço) para o pin
+// mostrar "Jm COPY" em vez do nome da rua.
 const MAPS_EMBED =
-  "https://www.google.com/maps?q=R.+Afonso+Pena,+43+-+Boa+Vista,+Recife+-+PE,+50050-130&output=embed";
+  "https://www.google.com/maps?q=Jm+COPY+R.+Afonso+Pena+43+Boa+Vista+Recife+PE&output=embed";
 
 const HORARIOS = [
   { dias: "Segunda a Sexta", horas: "08h às 18h" },

@@ -24,7 +24,7 @@
       eventos (brindes etc.) e impressão colorida e P&B (ver `site.ts`)
 - [x] Diferenciais — rapidez, qualidade, confiança;
       atendimento de domingo a domingo; localização junto à UNICAP
-- [x] Texto de cada diferencial numérico — mais de 23 anos de atuação no mercado
+- [x] Texto de cada diferencial numérico — mais de 9 anos de atuação no mercado
       gráfico (CNPJ registrado desde 2018)
 
 ## Contato e Localização

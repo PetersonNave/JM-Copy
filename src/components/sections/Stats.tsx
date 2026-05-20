@@ -2,7 +2,7 @@ import { Counter } from "@/components/ui/Counter";
 
 const STATS = [
   {
-    counter: { to: 23, suffix: "+" },
+    counter: { to: 9, prefix: "+" },
     label: "anos no mercado gráfico",
     color: "text-sun",
   },

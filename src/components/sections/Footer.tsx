@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { MapPin, Clock, MessageCircle, Instagram, Mail } from "lucide-react";
 
 const WHATSAPP_URL =
@@ -35,14 +36,12 @@ export function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Marca */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2.5">
-              <span className="grid h-11 w-11 place-items-center rounded-full border-2 border-paper bg-magenta text-paper">
-                <span className="font-display text-lg font-semibold">jm</span>
-              </span>
-              <span className="font-display text-xl font-semibold">
-                JM Copy
-              </span>
-            </div>
+            <Image
+              src="/icons/logo-without-text.png"
+              alt="JM Copy — Gráfica Rápida"
+              width={72}
+              height={72}
+            />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-paper/60">
               Gráfica rápida e de personalizados na Boa Vista, Recife. Você
               pensa, a gente realiza.

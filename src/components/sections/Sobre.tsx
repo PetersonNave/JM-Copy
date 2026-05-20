@@ -1,9 +1,10 @@
 import { MapPin, Clock, Sparkles } from "lucide-react";
 import { Reveal } from "@/components/ui/Reveal";
+import { SobreSlideshow } from "@/components/ui/SobreSlideshow";
 
 const FATOS = [
-  { icon: MapPin, texto: "Rua Afonso Pena, 43 — Boa Vista" },
-  { icon: Sparkles, texto: "+23 anos de mercado gráfico" },
+  { icon: MapPin, texto: "Rua Afonso Pena, 43 — Boa Vista (pertinho da UNICAP)" },
+  { icon: Sparkles, texto: "+9 anos de mercado gráfico" },
   { icon: Clock, texto: "Atendimento de domingo a domingo" },
 ];
 
@@ -17,12 +18,7 @@ export function Sobre() {
             {/* bloco de profundidade atrás */}
             <div className="absolute -bottom-4 -right-4 h-full w-full rounded-2xl border-2 border-ink bg-cyan" />
             <div className="relative overflow-hidden rounded-2xl border-2 border-ink bg-white">
-              <img
-                src="/galeria/03-cartao-hot-stamping.jpg"
-                alt="Cartões de visita com acabamento hot stamping dourado feitos pela JM Copy"
-                className="aspect-[4/5] w-full object-cover"
-                loading="lazy"
-              />
+              <SobreSlideshow />
             </div>
 
             {/* sticker de citação */}
@@ -55,7 +51,7 @@ export function Sobre() {
                 cópia e personalizado para ontem, sem complicação.
               </p>
               <p>
-                São mais de 23 anos de estrada no mercado gráfico transformando
+                São mais de 9 anos de estrada no mercado gráfico transformando
                 ideia em material impresso: TCC para entregar, banner para
                 inaugurar, adesivo para a vitrine, lembrança para a festa. Cada
                 pedido sai com o capricho de quem faz com gosto.

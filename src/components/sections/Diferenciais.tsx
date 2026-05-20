@@ -13,7 +13,7 @@ const MOTIVOS = [
     icon: Award,
     titulo: "Acabamento caprichado",
     descricao:
-      "Mais de 23 anos de ofício aparecem em cada corte, dobra e impressão bem feita.",
+      "Mais de 9 anos de ofício aparecem em cada corte, dobra e impressão bem feita.",
     cor: "bg-cyan",
   },
   {

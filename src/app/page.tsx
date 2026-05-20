@@ -39,7 +39,7 @@ export default function Home() {
           items={[
             "Orçamento rápido no WhatsApp",
             "Pertinho da UNICAP",
-            "+23 anos de gráfica",
+            "+9 anos de gráfica",
             "Acabamento caprichado",
             "Aberto a semana toda",
           ]}

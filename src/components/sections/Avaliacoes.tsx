@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Star, ExternalLink, Quote } from "lucide-react";
 import { Reveal } from "@/components/ui/Reveal";
 
@@ -14,6 +15,7 @@ const AVALIACOES = [
     texto:
       "Ótimo atendimento. Deixo aqui meu agradecimento especial à Juliana, profissional, atenciosa e gentil, que recebe minha mãe sempre com toda atenção durante seu retorno aos estudos. Fez parte do currículo escolar na confecção das apostilas, muito bem elaboradas. Gratidão!",
     cor: "bg-magenta",
+    foto: "/galeria/gmb-images/ana-bueno.png",
   },
   {
     nome: "Rogério Reis",
@@ -50,12 +52,14 @@ const AVALIACOES = [
     texto:
       "Atendimento maravilhoso! Equipe sempre disposta, não importa a dificuldade nem o horário. Grata!",
     cor: "bg-magenta",
+    foto: "/galeria/gmb-images/tarcila-oliveira.png",
   },
   {
     nome: "Otávia Ferreira",
     texto:
       "Muito bom. Fui bem atendida, a Juliana é muito simpática e o material é de primeira.",
     cor: "bg-grape",
+    foto: "/galeria/gmb-images/otavia-ferreira.png",
   },
   {
     nome: "Marina Garrett",
@@ -168,11 +172,23 @@ export function Avaliacoes() {
                 </blockquote>
 
                 <figcaption className="mt-5 flex items-center gap-3 border-t-2 border-dashed border-ink/15 pt-4">
-                  <span
-                    className={`grid h-11 w-11 shrink-0 place-items-center rounded-full border-2 border-ink ${a.cor} font-display text-sm font-semibold text-paper`}
-                  >
-                    {iniciais(a.nome)}
-                  </span>
+                  {a.foto ? (
+                    <span className="relative h-11 w-11 shrink-0 overflow-hidden rounded-full border-2 border-ink">
+                      <Image
+                        src={a.foto}
+                        alt={a.nome}
+                        fill
+                        className="object-cover"
+                        sizes="44px"
+                      />
+                    </span>
+                  ) : (
+                    <span
+                      className={`grid h-11 w-11 shrink-0 place-items-center rounded-full border-2 border-ink ${a.cor} font-display text-sm font-semibold text-paper`}
+                    >
+                      {iniciais(a.nome)}
+                    </span>
+                  )}
                   <span>
                     <span className="block font-display text-base font-semibold leading-tight text-ink">
                       {a.nome}

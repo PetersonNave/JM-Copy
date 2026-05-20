@@ -19,7 +19,7 @@ const SERVICOS = [
     icon: Flag,
     titulo: "Banner",
     descricao:
-      "Banners para lojas, eventos e divulgação — prontos com rapidez.",
+      "Banners para lojas, eventos e divulgação, prontos com rapidez.",
     cor: "bg-magenta",
   },
   {
@@ -79,7 +79,7 @@ export function Servicos() {
             return (
               <Reveal key={s.num} delay={i * 80} as="article">
                 <a
-                  href={WHATSAPP_URL}
+                  href={WHATSAPP_URL + encodeURIComponent(` ${s.titulo}`)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex h-full flex-col rounded-2xl border-2 border-ink bg-white p-7 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-sticker"

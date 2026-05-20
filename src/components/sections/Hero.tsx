@@ -99,7 +99,7 @@ export function Hero() {
             style={{ animationDelay: "0.42s" }}
           >
             Gráfica rápida e de personalizados na Boa Vista. Plotagem, banner,
-            adesivo, impressão e brindes — sua ideia sai pronta, do seu jeito e
+            adesivo, impressão e brindes, sua ideia sai pronta, do seu jeito e
             sem enrolação.
           </p>
 
@@ -130,7 +130,7 @@ export function Hero() {
             style={{ animationDelay: "0.62s" }}
           >
             <span className="font-display text-2xl font-semibold text-magenta-deep">
-              +23 anos
+              +9 anos
             </span>
             transformando ideia em papel impresso
           </p>
@@ -147,43 +147,15 @@ export function Hero() {
             {/* card principal */}
             <div className="rotate-[-3deg] overflow-hidden rounded-2xl border-2 border-ink bg-white shadow-sticker">
               <img
-                src="/galeria/09-mosaico-produtos.jpg"
+                src="/galeria/hero-banner.png"
                 alt="Mosaico de produtos e serviços da JM Copy"
                 className="aspect-[4/5] w-full object-cover"
                 loading="eager"
               />
             </div>
 
-            {/* card flutuante sobreposto */}
-            <div
-              className="animate-float absolute -bottom-10 -right-4 w-44 overflow-hidden rounded-xl border-2 border-ink bg-white shadow-sticker-sm sm:-right-10 sm:w-52"
-              style={{ "--rot": "7deg" } as React.CSSProperties}
-            >
-              <img
-                src="/galeria/01-cartao-visita-dourado.jpg"
-                alt="Cartões de visita com acabamento dourado"
-                className="aspect-square w-full object-cover"
-                loading="lazy"
-              />
-            </div>
-
-            {/* etiqueta de preço/estrela */}
-            <div
-              className="animate-float absolute -left-5 bottom-16 z-20 rounded-xl border-2 border-ink bg-magenta px-4 py-2.5 text-paper shadow-sticker-sm"
-              style={
-                {
-                  "--rot": "-6deg",
-                  "--float-duration": "5.5s",
-                } as React.CSSProperties
-              }
-            >
-              <p className="font-display text-xl font-semibold leading-none">
-                Pronto
-              </p>
-              <p className="text-xs font-bold uppercase tracking-wide">
-                rapidinho ⚡
-              </p>
-            </div>
+       
+           
           </div>
         </div>
       </div>

@@ -123,9 +123,9 @@ export const siteConfig = {
   ],
 
   // --- Diferenciais ---
-  // CNPJ registrado desde 2018; mais de 23 anos de atuação no mercado gráfico.
+  // CNPJ registrado desde 2018; mais de 9 anos de atuação no mercado gráfico.
   diferenciais: [
-    { titulo: "Anos de experiência", valor: "23+" },
+    { titulo: "Anos de experiência", valor: "9+" },
     { titulo: "Avaliação no Google", valor: "4,7★" },
     { titulo: "Atendimento na semana", valor: "7 dias" },
   ],
