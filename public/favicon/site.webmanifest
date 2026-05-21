@@ -1,0 +1,24 @@
+{
+  "name": "JM Copy — Gráfica Rápida e Personalizados",
+  "short_name": "JM Copy",
+  "description": "Gráfica rápida e personalizados na Boa Vista, Recife.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f0e1",
+  "theme_color": "#e014b5",
+  "icons": [
+    {
+      "src": "/favicon/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
