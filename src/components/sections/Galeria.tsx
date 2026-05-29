@@ -62,10 +62,10 @@ export function Galeria() {
                 preload="metadata"
                 aria-label="Aplicação de adesivo em vinil com recorte feito pela JM Copy"
               />
-              <span className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full border-2 border-ink bg-sun px-3 py-1 text-xs font-bold uppercase tracking-[0.14em] text-ink">
+              {/* <span className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full border-2 border-ink bg-sun px-3 py-1 text-xs font-bold uppercase tracking-[0.14em] text-ink">
                 <Sparkles className="h-3.5 w-3.5" strokeWidth={2.4} />
                 Em destaque
-              </span>
+              </span> */}
             </div>
 
             {/* Conteúdo */}
