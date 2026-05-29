@@ -23,6 +23,9 @@ export default function Home() {
           "Banner",
           "Adesivo em vinil",
           "Impressão colorida e P&B",
+          "Encadernação",
+          "Brindes",
+          "Carimbos",
           "Personalizados",
           "Recife · Boa Vista",
         ]}
@@ -64,6 +67,9 @@ export default function Home() {
             "Folder",
             "Ecobag",
             "Calendário",
+            "Encadernação",
+            "Fardamento",
+            "Garrafa",
           ]}
           className="bg-sun text-ink"
           speed={46}

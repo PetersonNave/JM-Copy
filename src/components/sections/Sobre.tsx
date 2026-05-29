@@ -80,9 +80,7 @@ export function Sobre() {
 
           <Reveal delay={280}>
             <div className="mt-8 flex items-center gap-3 border-t-2 border-dashed border-ink/25 pt-6">
-              <span className="grid h-12 w-12 place-items-center rounded-full border-2 border-ink bg-grape font-display text-lg font-semibold text-paper">
-                JM
-              </span>
+              
               <div>
                 <p className="font-display text-lg font-semibold leading-none text-ink">
                   Juliana Moura

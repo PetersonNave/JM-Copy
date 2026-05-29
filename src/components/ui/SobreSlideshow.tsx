@@ -43,6 +43,22 @@ const IMAGENS = [
     src: "/galeria/11-carimbo.jpeg",
     alt: "Carimbo personalizado feito pela JM Copy",
   },
+  {
+    src: "/galeria/15-adesivo-vinil.jpeg",
+    alt: "Letras recortadas em vinil colorido escrito Pernambuco feitas pela JM Copy",
+  },
+  {
+    src: "/galeria/16-impressão-colorida.jpeg",
+    alt: "Impressão colorida de fanzines ilustrados feita pela JM Copy",
+  },
+  {
+    src: "/galeria/17-personalizados.jpeg",
+    alt: "Tags de presente personalizadas com cordão feitas pela JM Copy",
+  },
+  {
+    src: "/galeria/18-kit-de-marca.jpeg",
+    alt: "Kit de marca com crachá e cartões de visita feito pela JM Copy",
+  },
 ];
 
 const INTERVALO = 1500;

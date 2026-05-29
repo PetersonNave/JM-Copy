@@ -51,12 +51,11 @@ export const siteConfig = {
       "https://www.google.com/maps?q=R.+Afonso+Pena,+43+-+Boa+Vista,+Recife+-+PE,+50050-130&output=embed",
   },
 
-  // --- Horário --- PENDENTE: confirmar grade completa.
-  // GMB indica abertura às 06h nas sextas; artes citam "de domingo a domingo".
+  // --- Horário --- grade confirmada pela cliente.
   horario: [
-    { dias: "Segunda a Sexta", horas: "08h às 18h" },
-    { dias: "Sábado", horas: "08h às 14h" },
-    { dias: "Domingo", horas: "Sob agendamento" },
+    { dias: "Segunda a Sexta", horas: "06h às 22h" },
+    { dias: "Sábado", horas: "06h às 15h" },
+    { dias: "Domingo", horas: "09h às 15h" },
   ],
 
   // --- Redes Sociais ---

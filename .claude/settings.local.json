@@ -16,7 +16,9 @@
       "PowerShell(npm ls next eslint-config-next --depth=0)",
       "Bash(kill %1)",
       "PowerShell(git add package.json package-lock.json)",
-      "PowerShell(npm run build 2>&1)"
+      "PowerShell(npm run build 2>&1)",
+      "Bash(node \"C:\\\\Users\\\\peter\\\\.claude\\\\skills\\\\impeccable\\\\scripts\\\\load-context.mjs\")",
+      "Bash(npx tsc *)"
     ]
   }
 }

@@ -21,9 +21,9 @@ const MAPS_EMBED =
   "https://www.google.com/maps?q=Jm+COPY+R.+Afonso+Pena+43+Boa+Vista+Recife+PE&output=embed";
 
 const HORARIOS = [
-  { dias: "Segunda a Sexta", horas: "08h às 18h" },
-  { dias: "Sábado", horas: "08h às 14h" },
-  { dias: "Domingo", horas: "Sob agendamento" },
+  { dias: "Segunda a Sexta", horas: "06h às 22h" },
+  { dias: "Sábado", horas: "06h às 15h" },
+  { dias: "Domingo", horas: "09h às 15h" },
 ];
 
 const CONTATOS = [
