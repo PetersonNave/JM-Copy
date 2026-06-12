@@ -1,0 +1,920 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - text: Você pensa, a gente realiza
+      - generic [ref=e4]: ✦
+    - generic [ref=e5]:
+      - text: DTF UV
+      - generic [ref=e6]: ✦
+    - generic [ref=e7]:
+      - text: Plotagem
+      - generic [ref=e8]: ✦
+    - generic [ref=e9]:
+      - text: Banner
+      - generic [ref=e10]: ✦
+    - generic [ref=e11]:
+      - text: Adesivo em vinil
+      - generic [ref=e12]: ✦
+    - generic [ref=e13]:
+      - text: Impressão colorida e P&B
+      - generic [ref=e14]: ✦
+    - generic [ref=e15]:
+      - text: Encadernação
+      - generic [ref=e16]: ✦
+    - generic [ref=e17]:
+      - text: Brindes
+      - generic [ref=e18]: ✦
+    - generic [ref=e19]:
+      - text: Carimbos
+      - generic [ref=e20]: ✦
+    - generic [ref=e21]:
+      - text: Personalizados
+      - generic [ref=e22]: ✦
+    - generic [ref=e23]:
+      - text: Recife · Boa Vista
+      - generic [ref=e24]: ✦
+    - generic [ref=e25]:
+      - text: Você pensa, a gente realiza
+      - generic [ref=e26]: ✦
+    - generic [ref=e27]:
+      - text: DTF UV
+      - generic [ref=e28]: ✦
+    - generic [ref=e29]:
+      - text: Plotagem
+      - generic [ref=e30]: ✦
+    - generic [ref=e31]:
+      - text: Banner
+      - generic [ref=e32]: ✦
+    - generic [ref=e33]:
+      - text: Adesivo em vinil
+      - generic [ref=e34]: ✦
+    - generic [ref=e35]:
+      - text: Impressão colorida e P&B
+      - generic [ref=e36]: ✦
+    - generic [ref=e37]:
+      - text: Encadernação
+      - generic [ref=e38]: ✦
+    - generic [ref=e39]:
+      - text: Brindes
+      - generic [ref=e40]: ✦
+    - generic [ref=e41]:
+      - text: Carimbos
+      - generic [ref=e42]: ✦
+    - generic [ref=e43]:
+      - text: Personalizados
+      - generic [ref=e44]: ✦
+    - generic [ref=e45]:
+      - text: Recife · Boa Vista
+      - generic [ref=e46]: ✦
+  - banner [ref=e47]:
+    - generic [ref=e48]:
+      - link "JM Copy — Gráfica Rápida" [ref=e49] [cursor=pointer]:
+        - /url: "#"
+        - img "JM Copy" [ref=e50]
+        - generic [ref=e51]:
+          - generic [ref=e52]: Gráfica
+          - generic [ref=e53]: Rápida
+      - navigation [ref=e54]:
+        - link "Serviços" [ref=e55] [cursor=pointer]:
+          - /url: "#servicos"
+          - text: Serviços
+        - link "Como funciona" [ref=e56] [cursor=pointer]:
+          - /url: "#como-funciona"
+          - text: Como funciona
+        - link "Sobre" [ref=e57] [cursor=pointer]:
+          - /url: "#sobre"
+          - text: Sobre
+        - link "Portfólio" [ref=e58] [cursor=pointer]:
+          - /url: "#galeria"
+          - text: Portfólio
+        - link "Contato" [ref=e59] [cursor=pointer]:
+          - /url: "#contato"
+          - text: Contato
+      - link "Pedir orçamento" [ref=e61] [cursor=pointer]:
+        - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento.
+        - img [ref=e62]
+        - text: Pedir orçamento
+  - main [ref=e64]:
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - img [ref=e70]
+            - text: 4,7 no Google
+          - generic [ref=e72]: Boa Vista · Recife
+          - generic [ref=e73]: Pertinho da UNICAP
+        - heading "Você pensa, a gente realiza." [level=1] [ref=e74]:
+          - generic [ref=e75]: Você pensa,
+          - generic [ref=e76]: a gente
+          - generic [ref=e77]:
+            - text: realiza.
+            - img [ref=e78]
+        - paragraph [ref=e80]: Gráfica rápida e de personalizados na Boa Vista. Plotagem, banner, adesivo, impressão e brindes, sua ideia sai pronta, do seu jeito e sem enrolação.
+        - generic [ref=e81]:
+          - link "Pedir orçamento no WhatsApp" [ref=e82] [cursor=pointer]:
+            - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento.
+            - img [ref=e83]
+            - text: Pedir orçamento no WhatsApp
+          - link "Ver serviços" [ref=e85] [cursor=pointer]:
+            - /url: "#servicos"
+            - text: Ver serviços
+            - img [ref=e86]
+        - paragraph [ref=e88]:
+          - generic [ref=e89]: +9 anos
+          - text: transformando ideia em papel impresso
+      - generic [ref=e91]:
+        - generic [ref=e93]:
+          - img [ref=e94]:
+            - generic [ref=e95]: você pensa ✦ a gente realiza ✦
+          - img [ref=e96]
+        - img "Mosaico de produtos e serviços da JM Copy" [ref=e99]
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - text: Orçamento rápido no WhatsApp
+        - generic [ref=e107]: ✦
+      - generic [ref=e108]:
+        - text: Pertinho da UNICAP
+        - generic [ref=e109]: ✦
+      - generic [ref=e110]:
+        - text: +9 anos de gráfica
+        - generic [ref=e111]: ✦
+      - generic [ref=e112]:
+        - text: Acabamento caprichado
+        - generic [ref=e113]: ✦
+      - generic [ref=e114]:
+        - text: Aberto a semana toda
+        - generic [ref=e115]: ✦
+      - generic [ref=e116]:
+        - text: Orçamento rápido no WhatsApp
+        - generic [ref=e117]: ✦
+      - generic [ref=e118]:
+        - text: Pertinho da UNICAP
+        - generic [ref=e119]: ✦
+      - generic [ref=e120]:
+        - text: +9 anos de gráfica
+        - generic [ref=e121]: ✦
+      - generic [ref=e122]:
+        - text: Acabamento caprichado
+        - generic [ref=e123]: ✦
+      - generic [ref=e124]:
+        - text: Aberto a semana toda
+        - generic [ref=e125]: ✦
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - generic [ref=e130]: "+0"
+        - generic [ref=e131]: anos no mercado gráfico
+      - generic [ref=e132]:
+        - generic [ref=e133]: 0,0
+        - generic [ref=e134]: de nota no Google
+      - generic [ref=e135]:
+        - generic [ref=e137]: 0 dias
+        - generic [ref=e138]: de atendimento por semana
+    - generic [ref=e140]:
+      - generic [ref=e141]:
+        - generic [ref=e142]: O que a gente faz
+        - heading "Tudo o que você precisa num lugar só." [level=2] [ref=e143]:
+          - text: Tudo o que você precisa
+          - text: num lugar só.
+      - generic [ref=e144]:
+        - generic:
+          - generic:
+            - img:
+              - generic: DTF UV • ALTA DURABILIDADE •
+          - generic:
+            - img
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - img [ref=e149]
+              - text: Mais pedido da casa
+            - heading "DTF UV" [level=3] [ref=e151]
+            - paragraph [ref=e152]: Cola em (quase) tudo.
+            - paragraph [ref=e153]: "Personalizamos canecas, garrafas, capinhas, eletrônicos e brindes com impressão DTF UV de alta durabilidade: cores vivas, textura em relevo e acabamento à prova d'água."
+            - list [ref=e154]:
+              - listitem [ref=e155]:
+                - img [ref=e156]
+                - text: Cores vivas
+              - listitem [ref=e158]:
+                - img [ref=e159]
+                - text: Textura em relevo
+              - listitem [ref=e163]:
+                - img [ref=e164]
+                - text: À prova d'água
+              - listitem [ref=e167]:
+                - img [ref=e168]
+                - text: Aplica a frio
+            - link "Pedir meu DTF UV" [ref=e173] [cursor=pointer]:
+              - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%3A%20DTF%20UV
+              - text: Pedir meu DTF UV
+              - img [ref=e174]
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - figure "Capinhas" [ref=e179]:
+                - img "Capinha de celular preta com estampa DTF UV de bonequinho" [ref=e181]
+                - generic [ref=e182]: Capinhas
+              - figure "Garrafas" [ref=e183]:
+                - img "Garrafa metálica com estampa DTF UV da taça em verde e amarelo" [ref=e185]
+                - generic [ref=e186]: Garrafas
+            - generic [ref=e187]:
+              - figure "Canecas" [ref=e188]:
+                - img "Caneca branca personalizada com impressão DTF UV de um casal em traço" [ref=e190]
+                - generic [ref=e191]: Canecas
+              - figure "Squeezes" [ref=e192]:
+                - img "Squeeze branco com estampa DTF UV de uma coruja" [ref=e194]
+                - generic [ref=e195]: Squeezes
+      - generic [ref=e196]:
+        - article [ref=e197]:
+          - link "01 Plotagem Impressão em grande formato com qualidade e acabamento profissional. Pedir orçamento" [ref=e198] [cursor=pointer]:
+            - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%3A%20Plotagem
+            - generic [ref=e199]:
+              - img [ref=e201]
+              - generic [ref=e205]: "01"
+            - heading "Plotagem" [level=3] [ref=e206]
+            - paragraph [ref=e207]: Impressão em grande formato com qualidade e acabamento profissional.
+            - generic [ref=e208]:
+              - text: Pedir orçamento
+              - img [ref=e209]
+        - article [ref=e212]:
+          - link "02 Banner Banners para lojas, eventos e divulgação, prontos com rapidez. Pedir orçamento" [ref=e213] [cursor=pointer]:
+            - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%3A%20Banner
+            - generic [ref=e214]:
+              - img [ref=e216]
+              - generic [ref=e218]: "02"
+            - heading "Banner" [level=3] [ref=e219]
+            - paragraph [ref=e220]: Banners para lojas, eventos e divulgação, prontos com rapidez.
+            - generic [ref=e221]:
+              - text: Pedir orçamento
+              - img [ref=e222]
+        - article [ref=e225]:
+          - link "03 Personalizados de aniversário Itens e artes personalizadas para deixar a festa com a sua cara. Pedir orçamento" [ref=e226] [cursor=pointer]:
+            - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%3A%20Personalizados%20de%20anivers%C3%A1rio
+            - generic [ref=e227]:
+              - img [ref=e229]
+              - generic [ref=e232]: "03"
+            - heading "Personalizados de aniversário" [level=3] [ref=e233]
+            - paragraph [ref=e234]: Itens e artes personalizadas para deixar a festa com a sua cara.
+            - generic [ref=e235]:
+              - text: Pedir orçamento
+              - img [ref=e236]
+        - article [ref=e239]:
+          - link "04 Personalizados para eventos Brindes e materiais personalizados para eventos, empresas e confraternizações. Pedir orçamento" [ref=e240] [cursor=pointer]:
+            - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%3A%20Personalizados%20para%20eventos
+            - generic [ref=e241]:
+              - img [ref=e243]
+              - generic [ref=e247]: "04"
+            - heading "Personalizados para eventos" [level=3] [ref=e248]
+            - paragraph [ref=e249]: Brindes e materiais personalizados para eventos, empresas e confraternizações.
+            - generic [ref=e250]:
+              - text: Pedir orçamento
+              - img [ref=e251]
+        - article [ref=e254]:
+          - link "05 Impressão colorida e P&B Impressão e cópias coloridas ou em preto e branco, em qualquer tiragem. Desconto especial para concurseiro Pedir orçamento" [ref=e255] [cursor=pointer]:
+            - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%3A%20Impress%C3%A3o%20colorida%20e%20P%26B
+            - generic [ref=e256]:
+              - img [ref=e258]
+              - generic [ref=e261]: "05"
+            - heading "Impressão colorida e P&B" [level=3] [ref=e262]
+            - paragraph [ref=e263]: Impressão e cópias coloridas ou em preto e branco, em qualquer tiragem.
+            - generic [ref=e264]:
+              - img [ref=e265]
+              - text: Desconto especial para concurseiro
+            - generic [ref=e268]:
+              - text: Pedir orçamento
+              - img [ref=e269]
+        - article [ref=e272]:
+          - link "06 Impressão A3 e A4 Impressão em A4, A3 e outros tamanhos, nítida e na hora, em cores ou preto e branco. Desconto especial para concurseiro Pedir orçamento" [ref=e273] [cursor=pointer]:
+            - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%3A%20Impress%C3%A3o%20A3%20e%20A4
+            - generic [ref=e274]:
+              - img [ref=e276]
+              - generic [ref=e279]: "06"
+            - heading "Impressão A3 e A4" [level=3] [ref=e280]
+            - paragraph [ref=e281]: Impressão em A4, A3 e outros tamanhos, nítida e na hora, em cores ou preto e branco.
+            - generic [ref=e282]:
+              - img [ref=e283]
+              - text: Desconto especial para concurseiro
+            - generic [ref=e286]:
+              - text: Pedir orçamento
+              - img [ref=e287]
+        - article [ref=e290]:
+          - link "07 Encadernação Wire-o, espiral, capa dura e brochura para TCCs, apostilas e documentos. Pedir orçamento" [ref=e291] [cursor=pointer]:
+            - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%3A%20Encaderna%C3%A7%C3%A3o
+            - generic [ref=e292]:
+              - img [ref=e294]
+              - generic [ref=e296]: "07"
+            - heading "Encadernação" [level=3] [ref=e297]
+            - paragraph [ref=e298]: Wire-o, espiral, capa dura e brochura para TCCs, apostilas e documentos.
+            - generic [ref=e299]:
+              - text: Pedir orçamento
+              - img [ref=e300]
+        - article [ref=e303]:
+          - link "08 Brindes diversos Garrafas personalizadas, nécessaire, canetas, crachás em PVC e couchê, entre outros, com a cara da sua marca. Pedir orçamento" [ref=e304] [cursor=pointer]:
+            - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%3A%20Brindes%20diversos
+            - generic [ref=e305]:
+              - img [ref=e307]
+              - generic [ref=e310]: "08"
+            - heading "Brindes diversos" [level=3] [ref=e311]
+            - paragraph [ref=e312]: Garrafas personalizadas, nécessaire, canetas, crachás em PVC e couchê, entre outros, com a cara da sua marca.
+            - generic [ref=e313]:
+              - text: Pedir orçamento
+              - img [ref=e314]
+        - article [ref=e317]:
+          - link "09 Digitação de TCC Digitamos e formatamos o seu TCC certinho, dentro das normas da ABNT. Pedir orçamento" [ref=e318] [cursor=pointer]:
+            - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%3A%20Digita%C3%A7%C3%A3o%20de%20TCC
+            - generic [ref=e319]:
+              - img [ref=e321]
+              - generic [ref=e324]: "09"
+            - heading "Digitação de TCC" [level=3] [ref=e325]
+            - paragraph [ref=e326]: Digitamos e formatamos o seu TCC certinho, dentro das normas da ABNT.
+            - generic [ref=e327]:
+              - text: Pedir orçamento
+              - img [ref=e328]
+        - article [ref=e331]:
+          - link "10 Camisas e fardamentos Confecção de camisas e fardamentos personalizados para equipes, turmas e empresas. Pedir orçamento" [ref=e332] [cursor=pointer]:
+            - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%3A%20Camisas%20e%20fardamentos
+            - generic [ref=e333]:
+              - img [ref=e335]
+              - generic [ref=e337]: "10"
+            - heading "Camisas e fardamentos" [level=3] [ref=e338]
+            - paragraph [ref=e339]: Confecção de camisas e fardamentos personalizados para equipes, turmas e empresas.
+            - generic [ref=e340]:
+              - text: Pedir orçamento
+              - img [ref=e341]
+        - article [ref=e344]:
+          - link "11 Carimbos Carimbos sob medida, com acabamento profissional para o seu dia a dia. Pedir orçamento" [ref=e345] [cursor=pointer]:
+            - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%3A%20Carimbos
+            - generic [ref=e346]:
+              - img [ref=e348]
+              - generic [ref=e351]: "11"
+            - heading "Carimbos" [level=3] [ref=e352]
+            - paragraph [ref=e353]: Carimbos sob medida, com acabamento profissional para o seu dia a dia.
+            - generic [ref=e354]:
+              - text: Pedir orçamento
+              - img [ref=e355]
+      - generic [ref=e358]:
+        - paragraph [ref=e359]: Entre outros serviços gráficos e personalizados!
+        - link "Não achou o que procura? Fala com a gente" [ref=e360] [cursor=pointer]:
+          - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%3A
+          - text: Não achou o que procura? Fala com a gente
+          - img [ref=e361]
+    - generic [ref=e365]:
+      - generic [ref=e366]:
+        - generic [ref=e367]: Simples assim
+        - heading "Do papo ao papel em 3 passos." [level=2] [ref=e368]:
+          - text: Do papo ao papel
+          - text: em 3 passos.
+      - generic [ref=e369]:
+        - generic [ref=e372]:
+          - generic [ref=e373]:
+            - img [ref=e374]
+            - generic [ref=e376]: "1"
+          - heading "Manda sua ideia" [level=3] [ref=e377]
+          - paragraph [ref=e378]: Chama no WhatsApp e conta o que você precisa. Pode mandar foto, print ou só a ideia na cabeça.
+        - generic [ref=e380]:
+          - generic [ref=e381]:
+            - img [ref=e382]
+            - generic [ref=e387]: "2"
+          - heading "A gente cria a arte" [level=3] [ref=e388]
+          - paragraph [ref=e389]: Montamos o material e você aprova tudo antes de imprimir. Nada sai sem o seu ok.
+        - generic [ref=e391]:
+          - generic [ref=e392]:
+            - img [ref=e393]
+            - generic [ref=e398]: "3"
+          - heading "Pronto, rapidinho" [level=3] [ref=e399]
+          - paragraph [ref=e400]: Imprimimos com agilidade e acabamento caprichado. É só retirar na loja ou combinar a entrega.
+    - generic [ref=e401]:
+      - generic [ref=e402]:
+        - text: TCC
+        - generic [ref=e403]: ✦
+      - generic [ref=e404]:
+        - text: Cartão de visita
+        - generic [ref=e405]: ✦
+      - generic [ref=e406]:
+        - text: Crachá
+        - generic [ref=e407]: ✦
+      - generic [ref=e408]:
+        - text: Convite
+        - generic [ref=e409]: ✦
+      - generic [ref=e410]:
+        - text: Caneca
+        - generic [ref=e411]: ✦
+      - generic [ref=e412]:
+        - text: Camiseta
+        - generic [ref=e413]: ✦
+      - generic [ref=e414]:
+        - text: Carimbo
+        - generic [ref=e415]: ✦
+      - generic [ref=e416]:
+        - text: Folder
+        - generic [ref=e417]: ✦
+      - generic [ref=e418]:
+        - text: Ecobag
+        - generic [ref=e419]: ✦
+      - generic [ref=e420]:
+        - text: Calendário
+        - generic [ref=e421]: ✦
+      - generic [ref=e422]:
+        - text: Encadernação
+        - generic [ref=e423]: ✦
+      - generic [ref=e424]:
+        - text: Fardamento
+        - generic [ref=e425]: ✦
+      - generic [ref=e426]:
+        - text: Garrafa
+        - generic [ref=e427]: ✦
+      - generic [ref=e428]:
+        - text: TCC
+        - generic [ref=e429]: ✦
+      - generic [ref=e430]:
+        - text: Cartão de visita
+        - generic [ref=e431]: ✦
+      - generic [ref=e432]:
+        - text: Crachá
+        - generic [ref=e433]: ✦
+      - generic [ref=e434]:
+        - text: Convite
+        - generic [ref=e435]: ✦
+      - generic [ref=e436]:
+        - text: Caneca
+        - generic [ref=e437]: ✦
+      - generic [ref=e438]:
+        - text: Camiseta
+        - generic [ref=e439]: ✦
+      - generic [ref=e440]:
+        - text: Carimbo
+        - generic [ref=e441]: ✦
+      - generic [ref=e442]:
+        - text: Folder
+        - generic [ref=e443]: ✦
+      - generic [ref=e444]:
+        - text: Ecobag
+        - generic [ref=e445]: ✦
+      - generic [ref=e446]:
+        - text: Calendário
+        - generic [ref=e447]: ✦
+      - generic [ref=e448]:
+        - text: Encadernação
+        - generic [ref=e449]: ✦
+      - generic [ref=e450]:
+        - text: Fardamento
+        - generic [ref=e451]: ✦
+      - generic [ref=e452]:
+        - text: Garrafa
+        - generic [ref=e453]: ✦
+    - generic [ref=e455]:
+      - generic [ref=e457]:
+        - generic [ref=e460]:
+          - img "Cartões de visita com acabamento hot stamping dourado feitos pela JM Copy" [ref=e461]
+          - img [ref=e462]
+          - img [ref=e463]
+          - img [ref=e464]
+          - img [ref=e465]
+          - img [ref=e466]
+          - img [ref=e467]
+          - img [ref=e468]
+          - img [ref=e469]
+          - img [ref=e470]
+          - img [ref=e471]
+          - img [ref=e472]
+          - img [ref=e473]
+        - paragraph [ref=e475]: “Sua ideia se torna realidade.”
+      - generic [ref=e476]:
+        - generic [ref=e477]:
+          - generic [ref=e478]: Quem faz acontecer
+          - heading "Uma gráfica que resolve de verdade." [level=2] [ref=e479]:
+            - text: Uma gráfica que
+            - text: resolve de verdade.
+        - generic [ref=e481]:
+          - paragraph [ref=e482]: A JM Copy é uma gráfica rápida no coração da Boa Vista, a poucos passos da UNICAP. É o ponto certo de quem precisa de impressão, cópia e personalizado para ontem, sem complicação.
+          - paragraph [ref=e483]: "São mais de 9 anos de estrada no mercado gráfico transformando ideia em material impresso: TCC para entregar, banner para inaugurar, adesivo para a vitrine, lembrança para a festa. Cada pedido sai com o capricho de quem faz com gosto."
+        - list [ref=e485]:
+          - listitem [ref=e486]:
+            - img [ref=e488]
+            - text: Rua Afonso Pena, 43 — Boa Vista (pertinho da UNICAP)
+          - listitem [ref=e491]:
+            - img [ref=e493]
+            - text: +9 anos de mercado gráfico
+          - listitem [ref=e495]:
+            - img [ref=e497]
+            - text: Atendimento de domingo a domingo
+        - generic [ref=e502]:
+          - paragraph [ref=e503]: Juliana Moura
+          - paragraph [ref=e504]: À frente da JM Copy
+    - generic [ref=e506]:
+      - generic [ref=e507]:
+        - generic [ref=e508]:
+          - generic [ref=e509]: Saiu da nossa máquina
+          - heading "Portfólio de verdade." [level=2] [ref=e510]
+        - paragraph [ref=e511]: Uma amostra de trabalhos reais feitos para clientes da JM Copy, do cartão de visita ao brinde de evento.
+      - generic [ref=e513]:
+        - generic "Aplicação de adesivo em vinil com recorte feito pela JM Copy" [ref=e515]
+        - generic [ref=e516]:
+          - heading "Adesivo em vinil com recorte" [level=3] [ref=e517]
+          - paragraph [ref=e518]: Recorte sob medida para vitrines, veículos, paredes e identidade visual, com aplicação limpa e acabamento que dura.
+          - link "Quero meu adesivo" [ref=e519] [cursor=pointer]:
+            - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Quero%20um%20or%C3%A7amento%20de%20adesivo%20em%20vinil%20com%20recorte.
+            - text: Quero meu adesivo
+            - img [ref=e520]
+      - generic [ref=e523]:
+        - figure [ref=e525]:
+          - img "Crachás personalizados"
+          - generic [ref=e526]:
+            - generic [ref=e527]: Eventos
+            - paragraph [ref=e528]: Crachás personalizados
+        - figure [ref=e530]:
+          - img "Cartões dourados"
+          - generic [ref=e531]:
+            - generic [ref=e532]: Cartão de visita
+            - paragraph [ref=e533]: Cartões dourados
+        - figure [ref=e535]:
+          - img "Encadernação capa dura"
+          - generic [ref=e536]:
+            - generic [ref=e537]: Acadêmico
+            - paragraph [ref=e538]: Encadernação capa dura
+        - figure [ref=e540]:
+          - img "Acabamento hot stamping" [ref=e541]
+          - generic [ref=e543]:
+            - generic [ref=e544]: Cartão de visita
+            - paragraph [ref=e545]: Acabamento hot stamping
+        - figure [ref=e547]:
+          - img "Canetas gravadas"
+          - generic [ref=e548]:
+            - generic [ref=e549]: Brindes
+            - paragraph [ref=e550]: Canetas gravadas
+        - figure [ref=e552]:
+          - img "Marca-texto de papel"
+          - generic [ref=e553]:
+            - generic [ref=e554]: Personalizado
+            - paragraph [ref=e555]: Marca-texto de papel
+        - figure [ref=e557]:
+          - img "Ecobags personalizadas"
+          - generic [ref=e558]:
+            - generic [ref=e559]: Brindes
+            - paragraph [ref=e560]: Ecobags personalizadas
+        - figure [ref=e562]:
+          - img "Camisas personalizadas"
+          - generic [ref=e563]:
+            - generic [ref=e564]: Estamparia
+            - paragraph [ref=e565]: Camisas personalizadas
+        - figure [ref=e567]:
+          - img "Carimbo personalizado"
+          - generic [ref=e568]:
+            - generic [ref=e569]: Personalizado
+            - paragraph [ref=e570]: Carimbo personalizado
+        - figure [ref=e572]:
+          - img "Letras de Pernambuco em vinil"
+          - generic [ref=e573]:
+            - generic [ref=e574]: Adesivo vinil
+            - paragraph [ref=e575]: Letras de Pernambuco em vinil
+        - figure [ref=e577]:
+          - img "Fanzines impressos em cores"
+          - generic [ref=e578]:
+            - generic [ref=e579]: Impressão colorida
+            - paragraph [ref=e580]: Fanzines impressos em cores
+        - figure [ref=e582]:
+          - img "Tags de presente"
+          - generic [ref=e583]:
+            - generic [ref=e584]: Personalizado
+            - paragraph [ref=e585]: Tags de presente
+        - figure [ref=e587]:
+          - img "Kit de marca com crachá"
+          - generic [ref=e588]:
+            - generic [ref=e589]: Identidade visual
+            - paragraph [ref=e590]: Kit de marca com crachá
+      - link "Ver mais no Instagram @jmcopy.grafica" [ref=e592] [cursor=pointer]:
+        - /url: https://instagram.com/jmcopy.grafica
+    - generic [ref=e594]:
+      - generic [ref=e596]:
+        - generic [ref=e597]: Por que a JM Copy
+        - heading "Motivos de sobra pra confiar." [level=2] [ref=e598]:
+          - text: Motivos de sobra
+          - text: pra confiar.
+        - paragraph [ref=e599]: Não é só imprimir. É entregar a sua ideia do jeito certo, no tempo certo e com gente que se importa com o resultado.
+      - generic [ref=e600]:
+        - article [ref=e601]:
+          - generic [ref=e602]:
+            - img [ref=e604]
+            - generic [ref=e606]:
+              - generic [ref=e607]:
+                - generic [ref=e608]: "01"
+                - heading "Rápido de verdade" [level=3] [ref=e609]
+              - paragraph [ref=e610]: Prazo apertado? A gente dá conta. Aqui pedido urgente não é exceção, é rotina.
+        - article [ref=e611]:
+          - generic [ref=e612]:
+            - img [ref=e614]
+            - generic [ref=e617]:
+              - generic [ref=e618]:
+                - generic [ref=e619]: "02"
+                - heading "Acabamento caprichado" [level=3] [ref=e620]
+              - paragraph [ref=e621]: Mais de 9 anos de ofício aparecem em cada corte, dobra e impressão bem feita.
+        - article [ref=e622]:
+          - generic [ref=e623]:
+            - img [ref=e625]
+            - generic [ref=e628]:
+              - generic [ref=e629]:
+                - generic [ref=e630]: "03"
+                - heading "Pertinho de você" [level=3] [ref=e631]
+              - paragraph [ref=e632]: Na Rua Afonso Pena, no coração da Boa Vista — a poucos passos da UNICAP.
+        - article [ref=e633]:
+          - generic [ref=e634]:
+            - img [ref=e636]
+            - generic [ref=e638]:
+              - generic [ref=e639]:
+                - generic [ref=e640]: "04"
+                - heading "Tudo do seu jeito" [level=3] [ref=e641]
+              - paragraph [ref=e642]: Cada material é pensado com você. Você traz a ideia, a gente personaliza por inteiro.
+    - generic [ref=e644]:
+      - generic [ref=e645]:
+        - generic [ref=e646]:
+          - generic [ref=e647]: Quem imprime, recomenda
+          - heading "O carinho de clientes reais." [level=2] [ref=e648]:
+            - text: O carinho de
+            - text: clientes reais.
+        - generic [ref=e649]:
+          - generic [ref=e650]: 4,7
+          - generic [ref=e651]:
+            - img "Nota 4.7 de 5" [ref=e652]:
+              - generic [ref=e653]:
+                - img [ref=e654]
+                - img [ref=e657]
+              - generic [ref=e659]:
+                - img [ref=e660]
+                - img [ref=e663]
+              - generic [ref=e665]:
+                - img [ref=e666]
+                - img [ref=e669]
+              - generic [ref=e671]:
+                - img [ref=e672]
+                - img [ref=e675]
+              - generic [ref=e677]:
+                - img [ref=e678]
+                - img [ref=e681]
+            - paragraph [ref=e683]: Nota no Google
+      - generic [ref=e684]:
+        - figure "Ana Bueno Ana Bueno Avaliação no Google" [ref=e686]:
+          - generic [ref=e687]:
+            - generic "5 de 5 estrelas" [ref=e688]:
+              - img [ref=e689]
+              - img [ref=e691]
+              - img [ref=e693]
+              - img [ref=e695]
+              - img [ref=e697]
+            - img [ref=e699]
+          - blockquote [ref=e702]: Ótimo atendimento. Deixo aqui meu agradecimento especial à Juliana, profissional, atenciosa e gentil, que recebe minha mãe sempre com toda atenção durante seu retorno aos estudos. Fez parte do currículo escolar na confecção das apostilas, muito bem elaboradas. Gratidão!
+          - generic [ref=e703]:
+            - img "Ana Bueno" [ref=e705]
+            - generic [ref=e706]:
+              - generic [ref=e707]: Ana Bueno
+              - text: Avaliação no Google
+        - figure "RR Rogério Reis Avaliação no Google" [ref=e709]:
+          - generic [ref=e710]:
+            - generic "5 de 5 estrelas" [ref=e711]:
+              - img [ref=e712]
+              - img [ref=e714]
+              - img [ref=e716]
+              - img [ref=e718]
+              - img [ref=e720]
+            - img [ref=e722]
+          - blockquote [ref=e725]: Sempre fui muito bem atendido. Todos os serviços que fiz foram entregues de forma impecável. Recomendo e dou 5 estrelas à empresa, e todas as estrelas à Juliana!
+          - generic [ref=e726]:
+            - generic [ref=e727]: RR
+            - generic [ref=e728]:
+              - generic [ref=e729]: Rogério Reis
+              - text: Avaliação no Google
+        - figure "RC Rafa Costa Avaliação no Google" [ref=e731]:
+          - generic [ref=e732]:
+            - generic "5 de 5 estrelas" [ref=e733]:
+              - img [ref=e734]
+              - img [ref=e736]
+              - img [ref=e738]
+              - img [ref=e740]
+              - img [ref=e742]
+            - img [ref=e744]
+          - blockquote [ref=e747]: Ótimo atendimento, preços imbatíveis e qualidade ímpar. Juliana é uma profissional excelente.
+          - generic [ref=e748]:
+            - generic [ref=e749]: RC
+            - generic [ref=e750]:
+              - generic [ref=e751]: Rafa Costa
+              - text: Avaliação no Google
+        - figure "WC Winner Cursos Avaliação no Google" [ref=e753]:
+          - generic [ref=e754]:
+            - generic "5 de 5 estrelas" [ref=e755]:
+              - img [ref=e756]
+              - img [ref=e758]
+              - img [ref=e760]
+              - img [ref=e762]
+              - img [ref=e764]
+            - img [ref=e766]
+          - blockquote [ref=e769]: Excelente atendimento, serviço impecável e entrega super rápida!
+          - generic [ref=e770]:
+            - generic [ref=e771]: WC
+            - generic [ref=e772]:
+              - generic [ref=e773]: Winner Cursos
+              - text: Avaliação no Google
+        - figure "NB Natalia Bevilaqua Avaliação no Google" [ref=e775]:
+          - generic [ref=e776]:
+            - generic "5 de 5 estrelas" [ref=e777]:
+              - img [ref=e778]
+              - img [ref=e780]
+              - img [ref=e782]
+              - img [ref=e784]
+              - img [ref=e786]
+            - img [ref=e788]
+          - blockquote [ref=e791]: Maravilhosa! Sempre envio meus materiais para ela e o resultado fica 100%!
+          - generic [ref=e792]:
+            - generic [ref=e793]: NB
+            - generic [ref=e794]:
+              - generic [ref=e795]: Natalia Bevilaqua
+              - text: Avaliação no Google
+        - figure "JF João Freitas Avaliação no Google" [ref=e797]:
+          - generic [ref=e798]:
+            - generic "5 de 5 estrelas" [ref=e799]:
+              - img [ref=e800]
+              - img [ref=e802]
+              - img [ref=e804]
+              - img [ref=e806]
+              - img [ref=e808]
+            - img [ref=e810]
+          - blockquote [ref=e813]: Local super agradável e bem localizado. A proprietária apresenta um atendimento de ótima qualidade, dando ao cliente toda satisfação nas cópias, xerox e digitalização em geral.
+          - generic [ref=e814]:
+            - generic [ref=e815]: JF
+            - generic [ref=e816]:
+              - generic [ref=e817]: João Freitas
+              - text: Avaliação no Google
+        - figure "Tarcila Oliveira Tarcila Oliveira Avaliação no Google" [ref=e819]:
+          - generic [ref=e820]:
+            - generic "5 de 5 estrelas" [ref=e821]:
+              - img [ref=e822]
+              - img [ref=e824]
+              - img [ref=e826]
+              - img [ref=e828]
+              - img [ref=e830]
+            - img [ref=e832]
+          - blockquote [ref=e835]: Atendimento maravilhoso! Equipe sempre disposta, não importa a dificuldade nem o horário. Grata!
+          - generic [ref=e836]:
+            - img "Tarcila Oliveira" [ref=e838]
+            - generic [ref=e839]:
+              - generic [ref=e840]: Tarcila Oliveira
+              - text: Avaliação no Google
+        - figure "Otávia Ferreira Otávia Ferreira Avaliação no Google" [ref=e842]:
+          - generic [ref=e843]:
+            - generic "5 de 5 estrelas" [ref=e844]:
+              - img [ref=e845]
+              - img [ref=e847]
+              - img [ref=e849]
+              - img [ref=e851]
+              - img [ref=e853]
+            - img [ref=e855]
+          - blockquote [ref=e858]: Muito bom. Fui bem atendida, a Juliana é muito simpática e o material é de primeira.
+          - generic [ref=e859]:
+            - img "Otávia Ferreira" [ref=e861]
+            - generic [ref=e862]:
+              - generic [ref=e863]: Otávia Ferreira
+              - text: Avaliação no Google
+        - figure "MG Marina Garrett Avaliação no Google" [ref=e865]:
+          - generic [ref=e866]:
+            - generic "5 de 5 estrelas" [ref=e867]:
+              - img [ref=e868]
+              - img [ref=e870]
+              - img [ref=e872]
+              - img [ref=e874]
+              - img [ref=e876]
+            - img [ref=e878]
+          - blockquote [ref=e881]: Atendimento de qualidade, entrega de conteúdo de qualidade e pontualidade.
+          - generic [ref=e882]:
+            - generic [ref=e883]: MG
+            - generic [ref=e884]:
+              - generic [ref=e885]: Marina Garrett
+              - text: Avaliação no Google
+      - link "Ver todas as avaliações no Google" [ref=e887] [cursor=pointer]:
+        - /url: https://www.google.com/maps/search/?api=1&query=Jm+COPY+R.+Afonso+Pena+43+Boa+Vista+Recife+PE
+        - text: Ver todas as avaliações no Google
+        - img [ref=e888]
+    - generic [ref=e893]:
+      - generic [ref=e894]:
+        - generic [ref=e895]: Onde a gente está
+        - heading "Dá um pulo aqui na Boa Vista." [level=2] [ref=e896]:
+          - text: Dá um pulo aqui
+          - text: na Boa Vista.
+      - generic [ref=e897]:
+        - generic [ref=e898]:
+          - generic [ref=e900]:
+            - generic [ref=e901]:
+              - img [ref=e903]
+              - generic [ref=e906]:
+                - heading "Endereço" [level=3] [ref=e907]
+                - paragraph [ref=e908]:
+                  - text: Rua Afonso Pena, 43 — Boa Vista
+                  - text: Recife/PE · CEP 50050-130
+                  - text: Pertinho da UNICAP
+            - link "Como chegar" [ref=e909] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=Jm+COPY+R.+Afonso+Pena+43+Boa+Vista+Recife+PE
+              - img [ref=e910]
+              - text: Como chegar
+          - generic [ref=e913]:
+            - generic [ref=e914]:
+              - img [ref=e916]
+              - heading "Horário de funcionamento" [level=3] [ref=e919]
+            - list [ref=e920]:
+              - listitem [ref=e921]:
+                - generic [ref=e922]: Segunda a Sexta
+                - generic [ref=e923]: 06h às 22h
+              - listitem [ref=e924]:
+                - generic [ref=e925]: Sábado
+                - generic [ref=e926]: 06h às 15h
+              - listitem [ref=e927]:
+                - generic [ref=e928]: Domingo
+                - generic [ref=e929]: 09h às 15h
+          - generic [ref=e931]:
+            - link "WhatsApp (81) 98309-1209" [ref=e932] [cursor=pointer]:
+              - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento.
+              - img [ref=e934]
+              - generic [ref=e936]: WhatsApp
+              - generic [ref=e937]: (81) 98309-1209
+            - link "Instagram @jmcopy.grafica" [ref=e938] [cursor=pointer]:
+              - /url: https://instagram.com/jmcopy.grafica
+              - img [ref=e940]
+              - generic [ref=e943]: Instagram
+              - generic [ref=e944]: "@jmcopy.grafica"
+            - link "E-mail julianacopiadora332@gmail.com" [ref=e945] [cursor=pointer]:
+              - /url: mailto:julianacopiadora332@gmail.com
+              - img [ref=e947]
+              - generic [ref=e950]: E-mail
+              - generic [ref=e951]: julianacopiadora332@gmail.com
+        - iframe [ref=e954]
+    - generic [ref=e956]:
+      - generic [ref=e958]: Bora começar?
+      - heading "Põe sua ideia no papel hoje." [level=2] [ref=e960]:
+        - text: Põe sua ideia
+        - text: no papel hoje.
+      - paragraph [ref=e962]: Manda uma mensagem, conta o que precisa e receba seu orçamento sem compromisso. A gente responde rapidinho.
+      - link "Falar no WhatsApp" [ref=e964] [cursor=pointer]:
+        - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento.
+        - img [ref=e965]
+        - text: Falar no WhatsApp
+        - img [ref=e967]
+      - paragraph [ref=e970]: Você pensa, a gente realiza.
+  - contentinfo [ref=e971]:
+    - generic: JM Copy
+    - generic [ref=e972]:
+      - generic [ref=e973]:
+        - generic [ref=e974]:
+          - img "JM Copy — Gráfica Rápida" [ref=e975]
+          - paragraph [ref=e976]: Gráfica rápida e de personalizados na Boa Vista, Recife. Você pensa, a gente realiza.
+        - generic [ref=e977]:
+          - heading "Navegação" [level=3] [ref=e978]
+          - list [ref=e979]:
+            - listitem [ref=e980]:
+              - link "Serviços" [ref=e981] [cursor=pointer]:
+                - /url: "#servicos"
+            - listitem [ref=e982]:
+              - link "Como funciona" [ref=e983] [cursor=pointer]:
+                - /url: "#como-funciona"
+            - listitem [ref=e984]:
+              - link "Portfólio" [ref=e985] [cursor=pointer]:
+                - /url: "#galeria"
+            - listitem [ref=e986]:
+              - link "Sobre" [ref=e987] [cursor=pointer]:
+                - /url: "#sobre"
+            - listitem [ref=e988]:
+              - link "Contato" [ref=e989] [cursor=pointer]:
+                - /url: "#contato"
+        - generic [ref=e990]:
+          - heading "Serviços" [level=3] [ref=e991]
+          - list [ref=e992]:
+            - listitem [ref=e993]: DTF UV
+            - listitem [ref=e994]: Plotagem
+            - listitem [ref=e995]: Banner
+            - listitem [ref=e996]: Personalizados
+            - listitem [ref=e997]: Impressão e cópias
+        - generic [ref=e998]:
+          - heading "Contato" [level=3] [ref=e999]
+          - list [ref=e1000]:
+            - listitem [ref=e1001]:
+              - img [ref=e1002]
+              - text: Rua Afonso Pena, 43 — Boa Vista, Recife/PE
+            - listitem [ref=e1005]:
+              - img [ref=e1006]
+              - text: Seg a Sex 06h–22h · Sáb 06h–15h · Dom 09h–15h
+            - listitem [ref=e1009]:
+              - link "(81) 98309-1209" [ref=e1010] [cursor=pointer]:
+                - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento.
+                - img [ref=e1011]
+                - text: (81) 98309-1209
+            - listitem [ref=e1013]:
+              - link "@jmcopy.grafica" [ref=e1014] [cursor=pointer]:
+                - /url: https://instagram.com/jmcopy.grafica
+                - img [ref=e1015]
+                - text: "@jmcopy.grafica"
+            - listitem [ref=e1018]:
+              - link "julianacopiadora332@gmail.com" [ref=e1019] [cursor=pointer]:
+                - /url: mailto:julianacopiadora332@gmail.com
+                - img [ref=e1020]
+                - text: julianacopiadora332@gmail.com
+      - generic [ref=e1028]:
+        - paragraph [ref=e1029]: © 2026 JM Copy — Gráfica Rápida. Todos os direitos reservados.
+        - paragraph [ref=e1030]: Recife · Pernambuco
+  - link "Falar no WhatsApp":
+    - /url: https://wa.me/5581983091209?text=Ol%C3%A1%2C%20JM%20Copy!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento.
+    - generic: Fala com a gente
+    - generic:
+      - img

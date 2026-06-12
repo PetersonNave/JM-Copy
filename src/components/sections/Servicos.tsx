@@ -174,40 +174,6 @@ export function Servicos() {
 
         {/* Destaque — DTF UV (serviço principal) */}
         <Reveal className="relative mb-16">
-          {/* Selo girando */}
-          <div className="pointer-events-none absolute -top-7 right-5 z-30 hidden h-24 w-24 sm:block lg:right-10">
-            <div className="h-full w-full animate-spin-slow">
-              <svg viewBox="0 0 100 100" className="h-full w-full">
-                <circle
-                  cx="50"
-                  cy="50"
-                  r="48"
-                  className="fill-magenta stroke-ink"
-                  strokeWidth="2"
-                />
-                <defs>
-                  <path
-                    id="selo-dtf-uv"
-                    fill="none"
-                    d="M50 50 m-33 0 a33 33 0 1 1 66 0 a33 33 0 1 1 -66 0"
-                  />
-                </defs>
-                <text
-                  className="fill-paper"
-                  fontSize="9.4"
-                  fontWeight="700"
-                  letterSpacing="1.3"
-                >
-                  <textPath href="#selo-dtf-uv">
-                    DTF UV • ALTA DURABILIDADE • À PROVA D&apos;ÁGUA •
-                  </textPath>
-                </text>
-              </svg>
-            </div>
-            <span className="absolute inset-0 grid place-items-center">
-              <Sparkles className="h-6 w-6 text-sun" strokeWidth={2.4} />
-            </span>
-          </div>
 
           <div className="grain relative overflow-hidden rounded-[2rem] border-2 border-ink bg-grape text-paper shadow-sticker">
             <div className="halftone pointer-events-none absolute -left-12 -top-12 h-56 w-56 text-sun/25" />
