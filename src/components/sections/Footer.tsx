@@ -14,9 +14,9 @@ const NAV = [
 ];
 
 const SERVICOS = [
+  "DTF UV",
   "Plotagem",
   "Banner",
-  "Adesivo em vinil",
   "Personalizados",
   "Impressão e cópias",
 ];

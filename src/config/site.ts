@@ -84,6 +84,12 @@ export const siteConfig = {
   // --- Serviços --- serviços principais informados pela cliente
   servicos: [
     {
+      titulo: "DTF UV",
+      descricao:
+        "Impressão DTF UV para personalizar canecas, garrafas, eletrônicos e brindes com cores vivas, textura em relevo e acabamento resistente.",
+      icone: "Sticker",
+    },
+    {
       titulo: "Plotagem",
       descricao:
         "Impressão em grande formato com qualidade e acabamento profissional.",
@@ -94,12 +100,6 @@ export const siteConfig = {
       descricao:
         "Banners para lojas, eventos e divulgação — prontos com rapidez.",
       icone: "Flag",
-    },
-    {
-      titulo: "Adesivo em Vinil com Recorte",
-      descricao:
-        "Adesivos recortados sob medida para vitrines, veículos e identidade visual.",
-      icone: "Sticker",
     },
     {
       titulo: "Personalizados para Aniversário",

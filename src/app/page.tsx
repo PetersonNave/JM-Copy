@@ -19,6 +19,7 @@ export default function Home() {
       <Ticker
         items={[
           "Você pensa, a gente realiza",
+          "DTF UV",
           "Plotagem",
           "Banner",
           "Adesivo em vinil",
